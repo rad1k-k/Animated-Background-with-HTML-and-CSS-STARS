@@ -2,13 +2,16 @@
 	margin: 0px;
 	padding: 0px;
 }
+
 body {
 	overflow: hidden;
 }
+
 .content {
 	background: linear-gradient(to bottom, #ff512f, #dd2476);
 	height: 100vh;
 }
+
 .content h1 {
 	color: #fff;
 	position: absolute;
@@ -17,10 +20,10 @@ body {
 	font-family: sans-serif;
 	transform: translate(-50%, -50%);
 	z-index: 1;
-	font-size: 80px;
+	font-size: 65px;
 	text-align: center;
-	text-transform:uppercase;
 }
+
 .box ul li {
 	position: relative;
 	display: inline-block;
@@ -38,6 +41,7 @@ body {
 	left: 10vw;
 	animation: animate 15s linear infinite;
 }
+
 .box ul li:before, .box ul li:after {
 	content: "";
 	display: block;
@@ -51,21 +55,26 @@ body {
 	border-left: 1em solid transparent;
 	transform: rotate(-35deg);
 }
+
 .box ul li:after {
 	transform: rotate(35deg);
 }
+
 .box ul li:nth-child(2) {
 	left: 36vw;
 	animation-delay: 2s;
 }
+
 .box ul li:nth-child(3) {
 	left: 22vw;
 	animation-delay: 4s;
 }
+
 .box ul li:nth-child(4) {
 	left: 56vw;
 	animation-delay: 6s;
 }
+
 .box ul li:nth-child(5) {
 	left: 76vw;
 	animation-delay: 4s;
@@ -74,6 +83,7 @@ body {
 	left: 80vw;
 	animation-delay: 8s;
 }
+
 @keyframes animate {
 	0% {
 		transform: scale(0) rotate(0);
